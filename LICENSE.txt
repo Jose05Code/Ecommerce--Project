@@ -1,0 +1,21 @@
+=================================================
+GNU General Public License, version 3.0
+=================================================
+
+Copyright (C) 2024 Jose Miguel Frade Gala
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License, version 3.0 as published by the Free Software Foundation, with the additional option of exempting derivative works from this license if the derivative work's author or authors so desire.
+
+You can obtain a copy of the GNU General Public License at:
+
+https://www.gnu.org/licenses/gpl-3.0.html
+
+If you have not received a copy of the license, you may write to the Free Software Foundation, Inc., 51 Franklin St, Suite 500, Boston, MA 02110-1301, USA.
+
+IMPORTANT! ADDITIONALLY TO THE TERMS OF THE GNU GENERAL PUBLIC LICENSE, THIS PROGRAM IS DISTRIBUTED WITH THE FOLLOWING RESTRICTIONS:
+
+* Commercial use of this software is not permitted.
+* Distribution of this software as part of a commercial product or service is not permitted.
+
+If you wish to use this software for commercial purposes, or distribute it as part of a commercial product or service, you must contact the author or authors to obtain a commercial license.
+=================================================

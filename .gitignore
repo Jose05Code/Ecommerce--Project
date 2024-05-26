@@ -1,0 +1,38 @@
+# Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.log
+*.pot
+*.egg-info/
+db.sqlite3
+media
+
+env/
+venv/
+
+# Vue.js
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+/.vscode
+/.idea
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak2
+*.bak3
+*.db
+*.sqlite3
+*.sqlite
+*.pid
+*.log
+*.pyc
+*.pyo
+.DS_Store
