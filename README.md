@@ -57,40 +57,7 @@ Thank you for visiting our repository!
 
 ### Backend (Django) Setup
 
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/your-repo/django-vue-ecommerce.git
-    cd django-vue-ecommerce
-    ```
-
-2. **Set up a virtual environment:**
-    ```sh
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
-
-3. **Install backend dependencies:**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. **Configure the database:**
-    - Update the `DATABASES` setting in `backend/settings.py` with your database credentials.
-
-5. **Apply migrations:**
-    ```sh
-    python manage.py migrate
-    ```
-
-6. **Create a superuser:**
-    ```sh
-    python manage.py createsuperuser
-    ```
-
-7. **Run the development server:**
-    ```sh
-    python manage.py runserver
-    ```
+For instructions on setting up the backend, please refer to the [Backend README](./Backend/README.md).
 
 ### Frontend (Vue.js) Setup
 
