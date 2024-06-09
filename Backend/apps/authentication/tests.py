@@ -36,7 +36,7 @@ class AuthenticationTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
 
         response_data = response.json()
-        self.assertIn(self.data['username'], response_data['username'])
+        self.assertIn('token', response_data)
 
         self.data['password'] = 'wrong_password'
 
