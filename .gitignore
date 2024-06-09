@@ -36,3 +36,6 @@ yarn-error.log
 *.pyc
 *.pyo
 .DS_Store
+
+# enviroment variables
+.env
