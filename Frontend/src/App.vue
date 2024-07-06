@@ -1,16 +1,23 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-      </nav>
-  </header>
   <RouterView />
 </template>
 
-<style scoped>
-
+<style>
+@font-face {
+  font-family: 'Rubik';
+  src: url(./assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Lora';
+  src: url(./assets/fonts/Lora-VariableFont_wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 </style>

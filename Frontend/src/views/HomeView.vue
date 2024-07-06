@@ -1,13 +1,11 @@
 <template>
-  <h1>wao</h1>
+  <MainLayout/>
 </template>
 
 <script setup>
-
+  import MainLayout from '@/layouts/MainLayout.vue';
 </script>
 
 <style scoped>
 
 </style>
-
-git
