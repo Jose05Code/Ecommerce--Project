@@ -1,5 +1,6 @@
 <template>
-  <MainLayout/>
+  <MainLayout>
+  </MainLayout>
 </template>
 
 <script setup>

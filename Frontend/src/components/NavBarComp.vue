@@ -143,6 +143,9 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
   background-color: #141414;
   display: flex;
   align-items: center;
@@ -241,8 +244,6 @@ a:hover svg path {
 }
 .none {
   display: none;
-}
-.borde {
 }
 /* ==========RESPONSIVE========== */
 @media (min-width: 1000px) {

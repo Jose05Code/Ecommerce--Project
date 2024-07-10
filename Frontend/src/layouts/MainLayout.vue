@@ -1,10 +1,12 @@
 <template>
-<NavBar/>
+<NavBarComp/>
 <slot/>
+<FooterComp/>
 </template>
 
 <script setup>
-    import NavBar from '@/components/NavBar.vue';
+    import NavBarComp from '@/components/NavBarComp.vue';
+    import FooterComp from '@/components/FooterComp.vue';
 </script>
 
 <style scoped>
