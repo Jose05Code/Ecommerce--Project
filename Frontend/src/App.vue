@@ -15,6 +15,9 @@ import { RouterView } from 'vue-router'
   font-family: 'Lora';
   src: url(./assets/fonts/Lora-VariableFont_wght.ttf);
 }
+h2{
+  font-family: 'Rubik';
+}
 * {
   box-sizing: border-box;
   margin: 0;

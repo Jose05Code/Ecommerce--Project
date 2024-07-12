@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="{fixed:isFixed , static:!isFixed}">
     <div class="nav-left none1">
       <button class="icon">
         <!-- ======SVG ICON====== -->
@@ -138,12 +138,26 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue';
 import { RouterLink } from 'vue-router'
+
+let isFixed = ref(false);
+
+const handleScroll = () => {
+  isFixed.value = window.scrollY > 0;
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <style scoped>
 nav {
-  position: fixed;
   z-index: 9999;
   width: 100%;
   background-color: #141414;
@@ -151,6 +165,12 @@ nav {
   align-items: center;
   height: 60px;
   padding: 0 30px;
+}
+.fixed{
+  position: fixed;
+}
+.static{
+  position: static;
 }
 .nav-desktop-options {
   display: flex;
