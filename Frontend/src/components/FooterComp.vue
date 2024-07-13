@@ -1,79 +1,113 @@
 <template>
   <footer>
-    <div @click="active1" class="desplegar tienda">
-      <h2>qheuqhdiajdioand</h2>
-      <div class="svg plus" :class="{ rotate: isActive1 }">
-        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_4112_32851)">
-            <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-            <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </g>
-          <defs>
-            <clipPath id="clip0_4112_32851">
-              <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
-            </clipPath>
-          </defs>
-        </svg>
+    <section class="footer-mobile">
+      <div @click="active1" class="desplegar tienda">
+        <h2>qheuqhdiajdioand</h2>
+        <div class="svg plus" :class="{ rotate: isActive1 }">
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_4112_32851)">
+              <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4112_32851">
+                <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
       </div>
-    </div>
-    <transition name="despliegue">
-      <div v-if="isActive1" class="desplegable">
-        <p>ahdkjahdak hakljdhawkjdha dahaiuahaj hakawfgakfjsfgskjfgfai hfaiwf hifha fuehasf iuhf</p>
-      </div>
-    </transition>
+      <transition name="despliegue">
+        <div v-if="isActive1" class="desplegable">
+          <p>
+            ahdkjahdak hakljdhawkjdha dahaiuahaj hakawfgakfjsfgskjfgfai hfaiwf hifha fuehasf iuhf
+          </p>
+        </div>
+      </transition>
 
-    <div @click="active2" class="desplegar servicio">
-      <h2>awdafafawf ag</h2>
-      <div class="svg plus" :class="{ rotate: isActive2 }">
-        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_4112_32851)">
-            <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-            <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </g>
-          <defs>
-            <clipPath id="clip0_4112_32851">
-              <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
-            </clipPath>
-          </defs>
-        </svg>
+      <div @click="active2" class="desplegar servicio">
+        <h2>awdafafawf ag</h2>
+        <div class="svg plus" :class="{ rotate: isActive2 }">
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_4112_32851)">
+              <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4112_32851">
+                <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
       </div>
-    </div>
-    <transition name="despliegue">
-      <div v-if="isActive2" class="desplegable">
-        <p>andanw doiHAWdi hadoihawodihaoidhqw89dy891984 hdkajsdoiaJHSoidadoiajskcns knadhaoshd</p>
+      <transition name="despliegue">
+        <div v-if="isActive2" class="desplegable">
+          <p>
+            andanw doiHAWdi hadoihawodihaoidhqw89dy891984 hdkajsdoiaJHSoidadoiajskcns knadhaoshd
+          </p>
+        </div>
+      </transition>
+      <div @click="active3" class="desplegar contactenos">
+        <h2>aefsaefsef hrhadg af</h2>
+        <div class="svg plus" :class="{ rotate: isActive3 }">
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_4112_32851)">
+              <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4112_32851">
+                <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
       </div>
-    </transition>
-    <div @click="active3" class="desplegar contactenos">
-      <h2>aefsaefsef hrhadg af</h2>
-      <div class="svg plus" :class="{ rotate: isActive3 }">
-        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_4112_32851)">
-            <path d="M3.125 10.5H16.875" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-            <path d="M10 3.625V17.375" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </g>
-          <defs>
-            <clipPath id="clip0_4112_32851">
-              <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
-            </clipPath>
-          </defs>
-        </svg>
+      <transition name="despliegue">
+        <div v-if="isActive3" class="desplegable">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, dignissimos amet
+            consequatur consectetur sit assumenda eius alias non doloribus, enim deserunt, fuga
+            veritatis dolore quidem reprehenderit sed iusto sapiente iste.
+          </p>
+        </div>
+      </transition>
+    </section>
+    <section class="footer-desktop">
+      <div>
+        <div class="logo">
+          <img class="logo-img" src="../assets/images/logo.png" alt="logo" />
+          <img class="logo-img-text" src="../assets/images/text_logo.png" alt="logo" />
+        </div>
       </div>
-    </div>
-    <transition name="despliegue">
-      <div v-if="isActive3" class="desplegable">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, dignissimos amet
-          consequatur consectetur sit assumenda eius alias non doloribus, enim deserunt, fuga
-          veritatis dolore quidem reprehenderit sed iusto sapiente iste.
-        </p>
+      <div class="footer-text">
+        <h2>Tienda</h2>
+        <p>Catalogo</p>
+        <p>Articulos individuales</p>
+        <p>Colecciones Linos</p>
+        <p>Talleres Linos</p>
       </div>
-    </transition>
+      <div class="footer-text">
+        <h2>Contactenos</h2>
+        <p>+53 53093529</p>
+        <p>linosPottery@gmail.com</p>
+        <p>Artesano Laboratorio 28 # 4505 e/ 45 y 47. Playa. Habana. Cuba</p>
+      </div>
+
+      <div class="footer-text">
+        <h2>Servicio al cliente</h2>
+        <p>Sobre nosotros</p>
+        <p>Preguntas frecuentes</p>
+        <p>Registro</p>
+      </div>
+    </section>
     <div class="social">
       <h2>SÍGUENOS</h2>
       <div class="redes">
@@ -137,10 +171,12 @@ const active3 = () => {
 
 <style scoped>
 footer {
+  transform: translateY(60px);
   padding: 40px 25px;
   background-color: #2a2a2a;
 }
 
+/* ====================ESTILOS DE LA VISTA MOBILE==================== */
 /* ==========Estilos del menu desplecable========== */
 .desplegar {
   transition: 0.2s ease;
@@ -149,7 +185,7 @@ footer {
   background-color: #2a2a2a;
   display: flex;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 25px 0;
   border-bottom: 2px solid #525252;
   font-size: 12px;
   align-items: center;
@@ -184,8 +220,9 @@ footer {
 }
 
 .plus {
-  scale: 1.2;
+  scale: 1;
 }
+
 /* ==========Estilos de los <transition/>========== */
 
 .despliegue-enter-active,
@@ -203,21 +240,58 @@ footer {
 /* ==========Estilos de los textos========== */
 
 h2 {
-  font-size: calc(15px + .5vw);
+  font-size: calc(12px + 0.5vw);
   font-weight: 400;
   color: #b3b3b3;
 }
 
 p {
-
   font-family: 'Rubik';
-  font-size: calc(10px + .5vw);
+  font-size: calc(8px + 0.5vw);
   color: #e5e5e5;
+  line-height: 16px;
 }
 
 h2,
 svg path {
   transition: 0.2s ease;
+}
+
+
+/* ====================ESTILOS DE LA VISTA DESKTOP==================== */
+
+.footer-desktop {
+  display: none;
+  justify-content: space-between;
+  padding: 60px 3% 0 3%;
+  gap: 70px;
+}
+
+.logo {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: min-content;
+}
+
+.logo-img-text {
+  width: 120px;
+}
+
+.logo-img {
+  width: 80px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* ==========Estilos de las redes sociales========== */
@@ -228,11 +302,32 @@ svg path {
   gap: 30px;
   max-width: 350px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .redes {
   display: flex;
   gap: 20px;
+}
+
+/* ====================MEDIA QUERYS==================== */
+@media (min-width: 1000px) {
+  .footer-desktop {
+    display: flex;
+  }
+
+  .footer-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .logo-img-text {
+    width: 160px;
+  }
+
+  .logo-img {
+    width: 120px;
+  }
 }
 </style>

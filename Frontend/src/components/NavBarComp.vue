@@ -1,5 +1,5 @@
 <template>
-  <nav :class="{fixed:isFixed , static:!isFixed}">
+  <nav>
     <div class="nav-left none1">
       <button class="icon">
         <!-- ======SVG ICON====== -->
@@ -138,39 +138,22 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
 import { RouterLink } from 'vue-router'
-
-let isFixed = ref(false);
-
-const handleScroll = () => {
-  isFixed.value = window.scrollY > 0;
-};
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
-});
 </script>
 
 <style scoped>
 nav {
+  position: fixed;
   z-index: 9999;
   width: 100%;
   background-color: #141414;
   display: flex;
   align-items: center;
   height: 60px;
-  padding: 0 30px;
+  padding: 0 0px 0 15px;
 }
-.fixed{
-  position: fixed;
-}
-.static{
-  position: static;
+svg{
+  scale: .8;
 }
 .nav-desktop-options {
   display: flex;
@@ -202,6 +185,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 12px;
+  scale: .7;
 }
 .logo img {
   height: min-content;
@@ -266,6 +250,14 @@ a:hover svg path {
   display: none;
 }
 /* ==========RESPONSIVE========== */
+@media (min-width: 600px){
+  nav{
+    padding: 0px 30px;
+  }
+  svg, .logo{
+    scale: 1;
+  }
+}
 @media (min-width: 1000px) {
   .none {
     display: flex;
