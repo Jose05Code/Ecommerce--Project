@@ -55,8 +55,8 @@
       </button>
     </div>
     <div class="logo">
-      <img class="logo-img" src="../assets/images/logo.png" alt="logo" />
-      <img class="logo-img-text" src="../assets/images/text_logo.png" alt="logo" />
+      <img class="logo-img" src="../../assets/images/logo.png" alt="logo" />
+      <img class="logo-img-text" src="../../assets/images/text_logo.png" alt="logo" />
     </div>
     <div class="nav-desktop-options none">
       <RouterLink to="">Inicio</RouterLink>
@@ -144,6 +144,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 nav {
   position: fixed;
+  top: 0;
   z-index: 9999;
   width: 100%;
   background-color: #141414;
@@ -167,9 +168,9 @@ svg{
 }
 .nav-desktop-options a:hover {
   flex-grow: 1;
-  color: #427235;
+  color: var(--verde);
   text-decoration: none;
-  border-bottom: 3px solid #427235;
+  border-bottom: 3px solid var(--verde);
 }
 a,
 p {
@@ -186,9 +187,6 @@ p {
   justify-content: center;
   gap: 12px;
   scale: .7;
-}
-.logo img {
-  height: min-content;
 }
 .logo-img-text {
   width: 100px;
@@ -229,10 +227,10 @@ button:hover{
   cursor: pointer;
 }
 button:hover .stroke path {
-  stroke: #427235;
+  stroke: var(--verde);
 }
 button:hover svg path {
-  fill: #427235;
+  fill: var(--verde);
 }
 svg path {
   transition: 0.2s ease;
@@ -241,10 +239,10 @@ p {
   transition: 0.2s ease;
 }
 a:hover svg path {
-  fill: #427235;
+  fill: var(--verde);
 }
 .login:hover p {
-  color: #427235;
+  color: var(--verde);
 }
 .none {
   display: none;
@@ -266,8 +264,8 @@ a:hover svg path {
     display: none;
   }
   .border {
-    border-right: 2px solid #427235;
-    border-left: 2px solid #427235;
+    border-right: 2px solid var(--verde);
+    border-left: 2px solid var(--verde);
     padding: 0 20px;
     margin: 0 15px;
   }

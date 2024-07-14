@@ -83,8 +83,8 @@
     <section class="footer-desktop">
       <div>
         <div class="logo">
-          <img class="logo-img" src="../assets/images/logo.png" alt="logo" />
-          <img class="logo-img-text" src="../assets/images/text_logo.png" alt="logo" />
+          <img class="logo-img" src="../../assets/images/logo.png" alt="logo" />
+          <img class="logo-img-text" src="../../assets/images/text_logo.png" alt="logo" />
         </div>
       </div>
       <div class="footer-text">
@@ -171,7 +171,6 @@ const active3 = () => {
 
 <style scoped>
 footer {
-  transform: translateY(60px);
   padding: 40px 25px;
   background-color: #2a2a2a;
 }
@@ -206,9 +205,9 @@ footer {
 .desplegar:hover svg path,
 .desplegar:hover h2,
 .desplegar:hover {
-  stroke: #42aa25;
-  color: #42aa25;
-  border-bottom-color: #42aa25;
+  stroke: var(--verde);
+  color: var(--verde);
+  border-bottom-color: var(--verde);
 }
 
 .rotate {
@@ -216,7 +215,7 @@ footer {
 }
 
 .sociales:hover .sociales-svg path {
-  fill: #42aa25;
+  fill: var(--verde);
 }
 
 .plus {

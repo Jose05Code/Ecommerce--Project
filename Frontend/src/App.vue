@@ -7,6 +7,9 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style>
+:root{
+    --verde: #32771f;
+}
 @font-face {
   font-family: 'Rubik';
   src: url(./assets/fonts/Rubik-VariableFont_wght.ttf);

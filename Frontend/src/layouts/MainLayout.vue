@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-    import NavBarComp from '@/components/NavBarComp.vue';
-    import FooterComp from '@/components/FooterComp.vue';
+    import NavBarComp from '@/components/layoutComponents/NavBarComp.vue';
+    import FooterComp from '@/components/layoutComponents/FooterComp.vue';
 </script>
 
 <style scoped>
