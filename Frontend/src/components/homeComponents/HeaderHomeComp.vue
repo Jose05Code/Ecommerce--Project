@@ -57,10 +57,10 @@ header {
   display: flex;
   align-items: center;
   background-image: url('../../assets/images/banner.jpg');
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
 }
 .header-text-container{
@@ -72,10 +72,9 @@ header {
   flex-direction: column;
   gap: 50px;
   animation-name: spawn;
-  animation-duration: 1s;
+  animation-duration: .6s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
-  transition: 0.2s ease;
 }
 .header-text {
   gap: 20px;
@@ -87,11 +86,26 @@ header {
   margin: 0 auto;
 }
 .header-text h1 {
+  position: relative;
   font-size: calc(2rem + 2vw);
   font-family: 'Lora';
-  background: #141414;
+  font-weight: 900;
+  animation: text-background 20s ease infinite;
+  background: linear-gradient(50deg, var(--verde), #141414, var(--verde), #141414 ,var(--verde), var(--verde));
   background-clip: text;
   color: transparent;
+  background-size: 200% 200%;
+}
+@keyframes text-background {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 .header-text-container p {
   width: 60%;
@@ -123,6 +137,8 @@ header {
   background-color: var(--verde);
 }
 .flechita-header-button {
+  position: relative;
+  top: 1px;
   scale: 2;
   margin-left: -12px;
   transition: 0.2s ease;
@@ -141,10 +157,17 @@ header {
     opacity: 1;
   }
 }
-@media (max-width: 500px) {
-  header {
-    background-position: -100px;
+@media (max-width: 1000px){
+  header{
+    height: 90vw;
   }
+}
+@media (max-width: 700px){
+  header{
+    height: 70vh;
+  }
+}
+@media (max-width: 500px) {
   .header-text-container{
   gap: 20px;
 }
