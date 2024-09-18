@@ -2,7 +2,7 @@
   <footer>
     <section class="footer-mobile">
       <div @click="active1" class="desplegar tienda">
-        <h2>qheuqhdiajdioand</h2>
+        <h2>Voluptatibus mollitia molestias rem non fuga.</h2>
         <div class="svg plus" :class="{ rotate: isActive1 }">
           <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_4112_32851)">
@@ -22,13 +22,14 @@
       <transition name="despliegue">
         <div v-if="isActive1" class="desplegable">
           <p>
-            ahdkjahdak hakljdhawkjdha dahaiuahaj hakawfgakfjsfgskjfgfai hfaiwf hifha fuehasf iuhf
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem odio repellendus aut velit? Doloribus consequatur blanditiis dolore recusandae assumenda neque, minima soluta officiis commodi vel natus eum consequuntur ex.
+            Adipisci accusantium, non sed voluptas voluptate officia! Magnam dolorem suscipit veritatis molestiae, saepe molestias nostrum, corporis atque quasi illo magni placeat recusandae, cumque dolores repellat fugiat earum. Ut, accusamus fugit.
           </p>
         </div>
       </transition>
 
       <div @click="active2" class="desplegar servicio">
-        <h2>awdafafawf ag</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
         <div class="svg plus" :class="{ rotate: isActive2 }">
           <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_4112_32851)">
@@ -48,12 +49,12 @@
       <transition name="despliegue">
         <div v-if="isActive2" class="desplegable">
           <p>
-            andanw doiHAWdi hadoihawodihaoidhqw89dy891984 hdkajsdoiaJHSoidadoiajskcns knadhaoshd
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non odit quos ipsum quia error molestias, iste aspernatur id eaque, laudantium corporis repellat, doloremque hic! Sapiente aperiam obcaecati nam eum natus!
           </p>
         </div>
       </transition>
       <div @click="active3" class="desplegar contactenos">
-        <h2>aefsaefsef hrhadg af</h2>
+        <h2>Commodi, sit culpa quaerat quidem eveniet doloremque atque aliquam dolorum enim earum!</h2>
         <div class="svg plus" :class="{ rotate: isActive3 }">
           <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_4112_32851)">
@@ -96,9 +97,9 @@
       </div>
       <div class="footer-text">
         <h2>Contactenos</h2>
-        <p>+53 53093529</p>
-        <p>linosPottery@gmail.com</p>
-        <p>Artesano Laboratorio 28 # 4505 e/ 45 y 47. Playa. Habana. Cuba</p>
+        <p>+55 55555555</p>
+        <p>webasombrosa@gmail.com</p>
+        <p>lugar random</p>
       </div>
 
       <div class="footer-text">

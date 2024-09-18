@@ -2,12 +2,11 @@
   <header>
     <div class="header-text-container">
       <div class="header-text">
-        <h1>Estudio de arte y diseño especializado en cerámica</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
       </div>
       <div class="header-button-container">
         <p>
-          Desde vajillas exquisitas hasta decoración para el hogar, una experiencia única para lo
-          auténtico y artesanal
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur natus cum, explicabo vel architecto quis ex labore doloribus!
         </p>
         <RouterLink class="header-button"
           >Ir al Catalogo
@@ -60,7 +59,7 @@ header {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 800px;
   width: 100%;
 }
 .header-text-container{
@@ -91,7 +90,7 @@ header {
   font-family: 'Lora';
   font-weight: 900;
   animation: text-background 20s ease infinite;
-  background: linear-gradient(50deg, var(--verde), #141414, var(--verde), #141414 ,var(--verde), var(--verde));
+  background: linear-gradient(50deg, var(--verde), #141414, var(--verde), #141414 ,var(--verde));
   background-clip: text;
   color: transparent;
   background-size: 200% 200%;
@@ -119,7 +118,6 @@ header {
   align-items: center;
   width: 100%;
   justify-content: space-between;
-
 }
 .header-button {
   font-size: calc(0.8rem + 0.5vw);
@@ -164,7 +162,7 @@ header {
 }
 @media (max-width: 700px){
   header{
-    height: 70vh;
+    height: 600px;
   }
 }
 @media (max-width: 500px) {

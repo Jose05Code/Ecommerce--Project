@@ -145,7 +145,7 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 section {
-  padding: 150px 5% 50px;
+  padding: 150px 5% 100px;
   background-image: url('../../assets/images/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
